@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: #5451fa;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 90px;
+}
+
+.wrapper {
+    border: solid 1px #ffff;
+    display: relative;
+    padding: 20px;
+    min-height: 100vh;
+    width: 370px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.topImage {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.searchIcon svg,
+.alertIcon svg {
+    width: 80%;
+    cursor: pointer;
+}
+
+.divImages img {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 17px;
+}
+
+.avatarImage img {
+    width: 40%;
+    position: relative;
+    bottom: 75px;
+}
